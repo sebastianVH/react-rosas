@@ -123,6 +123,46 @@ button{
 .flower--3 .flower__line__leaf--4 {
   animation: blooming-leaf-left var(--fl-speed) 1.9s backwards;
 }
+.flower--4 {
+  left: -75%;
+  transform: rotate(-35deg);
+  animation: moving-flower-4 4s linear infinite;
+}
+.flower--4 .flower__line {
+  animation-delay: 0.9s;
+}
+.flower--4 .flower__line__leaf--1 {
+  animation: blooming-leaf-right var(--fl-speed) 2.5s backwards;
+}
+.flower--4 .flower__line__leaf--2 {
+  animation: blooming-leaf-right var(--fl-speed) 2.3s backwards;
+}
+.flower--4 .flower__line__leaf--3 {
+  animation: blooming-leaf-left var(--fl-speed) 2.1s backwards;
+}
+.flower--4 .flower__line__leaf--4 {
+  animation: blooming-leaf-left var(--fl-speed) 1.9s backwards;
+}
+.flower--5 {
+  left: 75%;
+  transform: rotate(35deg);
+  animation: moving-flower-5 4s linear infinite;
+}
+.flower--5 .flower__line {
+  animation-delay: 0.9s;
+}
+.flower--5 .flower__line__leaf--1 {
+  animation: blooming-leaf-right var(--fl-speed) 2.5s backwards;
+}
+.flower--5 .flower__line__leaf--2 {
+  animation: blooming-leaf-right var(--fl-speed) 2.3s backwards;
+}
+.flower--5 .flower__line__leaf--3 {
+  animation: blooming-leaf-left var(--fl-speed) 2.1s backwards;
+}
+.flower--5 .flower__line__leaf--4 {
+  animation: blooming-leaf-left var(--fl-speed) 1.9s backwards;
+}
 .flower__leafs {
   position: relative;
   animation: blooming-flower 2s backwards;
@@ -155,7 +195,7 @@ button{
   height: 11vmin;
   border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
   background-color: #65e6cc;
-  background-image: linear-gradient(to top, #cf53c2, #e750be);
+  background-image: linear-gradient(to top, #f3ff07, #e0e04c);
   transform-origin: bottom center;
   opacity: 0.9;
   box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
@@ -175,7 +215,7 @@ button{
   transform-origin: bottom left;
   border-radius: 4vmin 5vmin 5vmin 4vmin;
   transform: translate(43%, 14%) rotateX(45deg) rotate(-90deg);
-  background-image: linear-gradient(to top, #cf53c2, #e750be);
+  background-image: linear-gradient(to top, #e6ee3e, #fff834);
   z-index: 1;
   opacity: 0.8;
 }

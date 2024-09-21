@@ -70,7 +70,7 @@ const entrada = () => {
 }
 
 useEffect(() => {
-  entrada()
+  //entrada()
 }, [])
 
   return (
@@ -79,11 +79,11 @@ useEffect(() => {
         <div className="night" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
 
           </div>
-        { show && 
+
         <div style={{ display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column'}}>
           <div className='song'>
-            <h1 style={{zIndex:'10',color:'white',paddingTop: 50,fontFamily: "Loved by the King",fontSize:50,animation:'zoomIn 3s'}}>Te extraño mucho...</h1>
-            <iframe style={{borderRadius:'10px',zIndex:'10'}} src="https://open.spotify.com/embed/track/0KAqMRUSZwzG3dZLdDA4eH?utm_source=generator"  frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <h1 style={{zIndex:'10',color:'white',paddingTop: 50,fontFamily: "Loved by the King",fontSize:50,animation:'zoomIn 3s'}}>Tus flores Amarillas</h1>
+            {/* <iframe style={{borderRadius:'10px',zIndex:'10'}} src="https://open.spotify.com/embed/track/0KAqMRUSZwzG3dZLdDA4eH?utm_source=generator"  frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> */}
           </div>
        <div className="flowers">
           
@@ -143,6 +143,81 @@ useEffect(() => {
             </div>
           </div>
       
+          <div className="flower flower--3">
+            <div className="flower__leafs flower__leafs--3">
+              <div className="flower__leaf flower__leaf--1"></div>
+              <div className="flower__leaf flower__leaf--2"></div>
+              <div className="flower__leaf flower__leaf--3"></div>
+              <div className="flower__leaf flower__leaf--4"></div>
+              <div className="flower__white-circle"></div>
+      
+              <div className="flower__light flower__light--1"></div>
+              <div className="flower__light flower__light--2"></div>
+              <div className="flower__light flower__light--3"></div>
+              <div className="flower__light flower__light--4"></div>
+              <div className="flower__light flower__light--5"></div>
+              <div className="flower__light flower__light--6"></div>
+              <div className="flower__light flower__light--7"></div>
+              <div className="flower__light flower__light--8"></div>
+      
+            </div>
+            <div className="flower__line">
+              <div className="flower__line__leaf flower__line__leaf--1"></div>
+              <div className="flower__line__leaf flower__line__leaf--2"></div>
+              <div className="flower__line__leaf flower__line__leaf--3"></div>
+              <div className="flower__line__leaf flower__line__leaf--4"></div>
+            </div>
+          </div>
+          <div className="flower flower--4">
+            <div className="flower__leafs flower__leafs--3">
+              <div className="flower__leaf flower__leaf--1"></div>
+              <div className="flower__leaf flower__leaf--2"></div>
+              <div className="flower__leaf flower__leaf--3"></div>
+              <div className="flower__leaf flower__leaf--4"></div>
+              <div className="flower__white-circle"></div>
+      
+              <div className="flower__light flower__light--1"></div>
+              <div className="flower__light flower__light--2"></div>
+              <div className="flower__light flower__light--3"></div>
+              <div className="flower__light flower__light--4"></div>
+              <div className="flower__light flower__light--5"></div>
+              <div className="flower__light flower__light--6"></div>
+              <div className="flower__light flower__light--7"></div>
+              <div className="flower__light flower__light--8"></div>
+      
+            </div>
+            <div className="flower__line">
+              <div className="flower__line__leaf flower__line__leaf--1"></div>
+              <div className="flower__line__leaf flower__line__leaf--2"></div>
+              <div className="flower__line__leaf flower__line__leaf--3"></div>
+              <div className="flower__line__leaf flower__line__leaf--4"></div>
+            </div>
+          </div>
+          <div className="flower flower--5">
+            <div className="flower__leafs flower__leafs--3">
+              <div className="flower__leaf flower__leaf--1"></div>
+              <div className="flower__leaf flower__leaf--2"></div>
+              <div className="flower__leaf flower__leaf--3"></div>
+              <div className="flower__leaf flower__leaf--4"></div>
+              <div className="flower__white-circle"></div>
+      
+              <div className="flower__light flower__light--1"></div>
+              <div className="flower__light flower__light--2"></div>
+              <div className="flower__light flower__light--3"></div>
+              <div className="flower__light flower__light--4"></div>
+              <div className="flower__light flower__light--5"></div>
+              <div className="flower__light flower__light--6"></div>
+              <div className="flower__light flower__light--7"></div>
+              <div className="flower__light flower__light--8"></div>
+      
+            </div>
+            <div className="flower__line">
+              <div className="flower__line__leaf flower__line__leaf--1"></div>
+              <div className="flower__line__leaf flower__line__leaf--2"></div>
+              <div className="flower__line__leaf flower__line__leaf--3"></div>
+              <div className="flower__line__leaf flower__line__leaf--4"></div>
+            </div>
+          </div>
           <div className="flower flower--3">
             <div className="flower__leafs flower__leafs--3">
               <div className="flower__leaf flower__leaf--1"></div>
@@ -384,7 +459,7 @@ useEffect(() => {
             </div>
           </div>
         </div>
-        </div>}
+        </div>
     </div>
   )
 }
